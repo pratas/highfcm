@@ -1,14 +1,14 @@
-# HighFCM #
+<h1>HighFCM</h1>
 <p align="center"><img src="/logo.png" 
 alt="HighFCM" width="260" height="260" border="0" /></p>
 HighFCM is a compression algorithm that relies on a pre-analysis of the data before compression, with the aim of identifying regions of low complexity. This strategy enables us to use deeper context models, supported by hash-tables, without requiring huge amounts of memory. As an example, context depths as large as 32 are attainable for alphabets of four symbols, as is the case of genomic sequences. These deeper context models show very high compression capabilities in very repetitive genomic sequences, yielding improvements over previous algorithms. Furthermore, this method is universal, in the sense that it can be used in any type of textual data.
 
 
-## INSTALLATION ##
+<h2>INSTALLATION</h2>
 
 In the following instructions we show the procedure to install/compile HighFCM.
 
-### Linux
+<h3>Linux</h3>
 <pre>
 wget https://github.com/pratas/highfcm/archive/master.zip
 unzip master.zip
@@ -16,11 +16,11 @@ cd highfcm-master
 make
 </pre>
 
-### Windows
+<h3>Windows</h3>
 
 In windows use cygwin (https://www.cygwin.com/) and make sure that it is included in the installation: make, unzip, wget (and any dependencies). If you install the complete cygwin packet then all these will be installed. After, all steps will be the same as in Linux.
 
-## EXECUTION ##
+<h2>EXECUTION</h2>
 
 Example on running HighFCM:
 
@@ -28,7 +28,7 @@ Example on running HighFCM:
 ./HighFCM -v -cl 4 -ce 14 -cu 16 File.seq
 </pre>
 
-## PARAMETERS ##
+<h2>PARAMETERS</h2>
 
 To see the possible options type
 <pre>
@@ -63,17 +63,17 @@ Usage: HighFCM [OPTION]... [FILE]
 </p>
 </pre>
 
-## CITATION ##
+<h2>CITATION</h2>
 
 On using this software/method please cite:
 
 Pratas, D.; Pinho, A.J., "Exploring deep Markov models in genomic data compression using sequence pre-analysis", Signal Processing Conference (EUSIPCO), 2014 Proceedings of the 22nd European, pp.2395-2399, 1-5 Sept. 2014.
 
-## ISSUES ##
+<h2>ISSUES</h2>
 
 For any issue let us know at [issues link](https://github.com/pratas/highfcm/issues).
 
-## LICENSE ##
+<h2>LICENSE</h2>
 
 GPL v2.
 
