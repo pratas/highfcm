@@ -3,9 +3,10 @@
 alt="HighFCM" width="260" height="260" border="0" /></p>
 HighFCM is a compression algorithm that relies on a pre-analysis of the data before compression, with the aim of identifying regions of low complexity. This strategy enables us to use deeper context models, supported by hash-tables, without requiring huge amounts of memory. As an example, context depths as large as 32 are attainable for alphabets of four symbols, as is the case of genomic sequences. These deeper context models show very high compression capabilities in very repetitive genomic sequences, yielding improvements over previous algorithms. Furthermore, this method is universal, in the sense that it can be used in any type of textual data.
 
+
 ## INSTALLATION ##
 
-In the following instructions we show the procedure to install/compile HighFCM:
+In the following instructions we show the procedure to install/compile HighFCM.
 
 ### Linux
 <pre>
