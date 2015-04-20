@@ -8,7 +8,7 @@ HighFCM is a compression algorithm that relies on a pre-analysis of the data bef
 
 In the following instructions we show the procedure to install, compile and run HighFCM:
 
-### Linux 
+### Linux ###
 <pre>
 wget https://github.com/pratas/highfcm/archive/master.zip
 unzip master.zip
@@ -16,21 +16,21 @@ cd highfcm-master
 make
 </pre>
 
-### Windows
+### Windows ###
 
 In windows use cygwin (https://www.cygwin.com/) and make sure that it is included in the installation: make, unzip, wget (and any dependencies). If you install the complete cygwin packet then all these will be installed. After, all steps will be the same as in Linux.
 
-## EXECUTION
 
-### Run HighFCM
+## EXECUTION ##
 
-Run HighFCM:
+Example on running HighFCM:
 
 <pre>
 ./HighFCM -v -cl 4 -ce 14 -cu 16 File.seq
 </pre>
 
-## PARAMETERS
+
+## PARAMETERS ##
 
 To see the possible options type
 <pre>
