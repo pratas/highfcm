@@ -60,6 +60,8 @@ Usage: HighFCM [OPTION]... [FILE]
  -d   &#60outFile&#62   decompression output file             
  -rm              remove comp file after decomp         
  &#60File&#62           input quality scores file  
+</p>
+</pre>
 
 ## CITATION ##
 
