@@ -5,7 +5,7 @@
 // -       HighFCM is under GPL,  http://www.gnu.org/licenses/gpl.txt        -
 // -                                                                         -
 // -       HighFCM: a fast lossless asymmetric genomic compressor            - 
-// -       that explores huge Markov context orders                          -
+// -       that explores high Markov context orders                          -
 // -                                                                         -
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 //////////////////////////////////////////////////////////////////////////////
@@ -913,7 +913,7 @@ int main(int argc, char *argv[])
     fprintf(stderr, " -t   <nThreads>  number of threads / parts             \n");
     fprintf(stderr, " -d   <outFile>   decompression output file             \n");
     fprintf(stderr, " -rm              remove comp file after decomp         \n");
-    fprintf(stderr, " <File>           input quality scores file           \n\n");
+    fprintf(stderr, " <File>           input file to compress              \n\n");
     return EXIT_SUCCESS;
     }
 
