@@ -10,9 +10,8 @@ In the following instructions we show the procedure to install/compile HighFCM.
 
 <h3>Linux</h3>
 <pre>
-wget https://github.com/pratas/highfcm/archive/master.zip
-unzip master.zip
-cd highfcm-master
+git clone https://github.com/pratas/highfcm.git
+cd highfcm
 make
 </pre>
 
