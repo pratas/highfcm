@@ -58,7 +58,7 @@ Usage: HighFCM [OPTION]... [FILE]
  -t   &#60nThreads&#62  number of threads / parts             
  -d   &#60outFile&#62   decompression output file             
  -rm              remove comp file after decomp         
- &#60File&#62           input quality scores file  
+ &#60File&#62           input file to compress
 </p>
 </pre>
 
